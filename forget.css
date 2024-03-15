@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+body{
+
+    background-image: url("forget password.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.main{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+.forgot{
+    display: flex;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+}
+.your{
+    display: flex;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+    padding-bottom: 5%;
+}
+.form{
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    margin-bottom: 3%;
+    background-color: #3dff9e00;
+}
+.email {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 5%;
+    padding-right: 160px;
+    padding-left: 5px;
+}
+.email input{
+    text-decoration: none;
+    display: flex;
+    outline: none;
+    align-items: center;
+    justify-content: center;
+    padding-right:50px;
+    width: 380px;
+    padding-left:20px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(230, 228, 248);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: large;
+}
+.reset{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 4%;
+    padding-right: 155px;
+}
+.reset button{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    padding-right: 187px;
+    padding-left: 145px;
+    border-radius: 5px;
+    color: white;
+    border: none;
+    background-color: rgb(115, 96, 255);
+    padding-top: 8px;
+    padding-bottom: 5px;
+}
+.signin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10%;
+    padding-right: 155px;
+}
+.signin a{
+    text-decoration: none;
+    display: flex;
+    font-size: medium;
+    color: rgb(147, 147, 147);
+    justify-content: center;
+    padding-right: 65px;
+    padding-left: 65px;
+    padding-top: 0px;
+    padding-bottom: 10px;
+}

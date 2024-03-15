@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0%;
+    padding: 0%;
+}
+/* body{
+    background-image: url("wallpaperflare.com_wallpaper (2).jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+} */
+.main{
+   align-items: center;
+    display: flex;
+    padding: 25%;
+    justify-content: center;
+    
+}
+.submain{
+    display: flex;
+    /* border: 1px solid black; */
+        box-shadow: 2px 2px 4px rgba(10, 30, 50, 20); /* Change the values as needed */
+       position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+  cursor: auto; /* Cursor style for dragging */
+    }
+.image{
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+    
+}
+.form{
+    height: 35vh ;
+    width: 25vw;
+    padding-right: 25px;
+    background-color: white(230, 230, 230, 0.918);
+    justify-content: center;
+    align-items: center ;
+}
+.login{
+    display: flex;
+    justify-content: center;
+    align-items: first center;
+    font-size: medium;
+    height: 8vh;
+    width: 25vw;
+}
+.login h2{
+    display: flex;
+    padding-left: 20px;
+    /* display: grid; */
+    align-items: center;
+    justify-content: center;
+    color: rgba(66, 66, 66, 0.931);
+  }
+.password{
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    /* padding-top: 10px; */
+}
+.username{
+display: flex;
+justify-content: center;
+padding: 5px;
+
+}
+.password input{
+    padding-right: 50px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    border: none;
+    outline: none;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    background-color: rgba(7, 7, 7, 0);
+    border-bottom: 0.5px solid  rgb(0, 0, 0);
+    /* padding-top: 10px; */
+}
+.username input{
+    outline: none;
+    padding-right: 50px;
+    padding-bottom: 5px;
+    color: rgb(0, 0, 0);
+    padding-top: 5px;
+    cursor: pointer;
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+    border-bottom: 0.5px solid  rgb(0, 0, 0);
+   }
+.button1{
+    padding-top: 10px;
+    display: flex;
+    /* padding: 20px; */
+    justify-content: center;
+    align-items: center;
+}
+.button1 button{
+    align-items: center;
+    border: none;
+    font-size: small;
+    padding-top: 5px;
+    padding-bottom:5px ;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: 600;
+    margin-top: 5px;
+    /* padding: 10px; */
+    color: rgb(255, 255, 255);
+    border-radius: 23px;
+    background-image: linear-gradient(to top, rgb(60, 3, 248), rgb(149, 10, 254));
+}
+    .button2{
+        padding: 10px 10px 10px 50%;
+        text-decoration: none;
+        display: flex;
+        padding-left: 60px;
+        padding-top: 20px;
+        font-size: medium;
+    padding-right: 50px;
+    content: "\2192"; /* Unicode for right arrow */
+  
+    justify-content: center;
+        text-decoration: none;
+}
+.button3{
+    display: flex;
+    padding-left: 48px;
+    padding-top: 15px;
+padding-right: 50px;
+font-size: small;
+    justify-content: center;
+
+}
+
+a{
+    text-decoration: none;
+    color: rgb(0, 0, 0)    ;
+}

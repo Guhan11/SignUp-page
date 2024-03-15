@@ -1,0 +1,99 @@
+/* Importing font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* Applying font to all elements */
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+
+.signup{
+ 
+    width: 400px;
+    height: 650px;
+
+    display: flex;
+    justify-content: center;
+}
+.form  {
+    width: 350px;
+    height:650px;
+    padding-left: 24px;
+    align-items: center;  
+    box-shadow: 2px 2px 4px rgba(100, 30, 50, 20);
+   background-color:  rgb(255, 255, 255);
+
+}
+.form label{
+    display: block;
+    padding-top: 15px;
+ }
+.form input{
+    width: 70%;
+    margin-bottom: 5px;
+    /* border-radius: 3px; */
+    border: none;
+    outline: none;
+    border-bottom: 0.5px solid  rgb(185, 185, 185);
+    padding-top: 10px;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    width: 100vw;
+    height: 100vh;
+    cursor: auto; 
+    background-color: rgb(255, 255, 255);
+}
+.register {
+    display: flex;
+    /* justify-content: center; */
+    padding: 10px;
+    padding-top: 10px;
+}
+.button{
+    display: flex;
+    justify-content: center;
+}
+.button1{
+    width: 50%;
+    border: none;
+    font-size: medium;
+    font-weight: 600;
+    margin-top: 15px;
+    padding: 10px;
+    color: white;
+    border-radius: 23px;
+    background-image: linear-gradient(to top, rgb(215, 22, 236), rgb(149, 10, 254));
+}
+.button2{
+    width: 50%;
+    font-size: medium;
+    font-weight: 600;
+    padding: 10px 10px 10px 70px;
+    text-decoration: none;
+    margin-top: 15px;
+    color: rgb(0, 0, 0);
+}
+.checkbox {
+    display: flex;
+    justify-content: center;
+    padding-right: 100px;
+    padding-top: 40px;
+}
+.checkbox input{
+    width: 13px;
+}
+.checkbox p{
+    padding-left: 5px;
+}
+
+.image {
+    padding-top: 32px;
+    width: 50%;
+    height: 77%;
+   
+}
