@@ -1,7 +1,9 @@
 Hi,
   Im GUHAN, I recently learned basics of html,css and javascript.
   I have created the signUp,signIn and forgetPassword page using html and css.
+  
 My SIGN-UP page :
+
 ![image](https://github.com/Guhan11/SignUp-page/assets/113593113/ba57aecd-bda8-46d3-a819-cfe50f5c3a29)
 
 My SIGN_IN page :
